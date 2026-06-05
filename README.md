@@ -257,17 +257,4 @@ python scripts/archive_claude_session.py --transcript-path <TRANSCRIPT_JSONL_PAT
 python scripts/archive_claude_session.py --transcript-path <TRANSCRIPT_JSONL_PATH> --no-upload
 ```
 
-## 上传到 GitHub
-
-如果你想把这个小项目单独上传到 GitHub，可以在项目目录中执行：
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git push -u origin main
-```
-
 如果它是在另一个已有仓库的子目录中，也可以直接把 `claude-feishu-archiver/` 作为子项目目录提交。
